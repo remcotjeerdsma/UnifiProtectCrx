@@ -21,4 +21,4 @@ If your chrome is in developer mode, you can also upload the 'app' folder direct
 2.  Refresh the page and click the 'Load unpacked extension' button and select the app folder to install it.
 
 # Demonstration
-[![Booting of the ChromeOS appliance with the app in Kiosk mode](https://img.youtube.com/vi/hcBLHpjcs5g/0.jpg)](https://www.youtube.com/watch?v=hcBLHpjcs5g)
+[![Click to watch on Youtube](https://media.giphy.com/media/3kD93VteN3P2F87toN/giphy.gif)](https://www.youtube.com/watch?v=hcBLHpjcs5g)
