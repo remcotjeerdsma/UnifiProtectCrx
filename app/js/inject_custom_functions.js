@@ -40,11 +40,10 @@ function generateScriptText(fn) {
 window.addEventListener('load', function() {
   var webview = document.querySelector('webview');
   webview.addEventListener('loadstop', function() {
-    if (webview.src.endsWith === '/login?redirect=%2Fliveview') {
-      console.log(webview.src);
+    if (webview.src.endsWith('/login?redirect=%2Fliveview')) {
       webview.executeScript({ code: generateScriptText(auto_login) });
     }
-    if (webview.src.endsWith("/liveview/")){
+    if (webview.src.includes("/liveview/")){
       webview.executeScript({ code: generateScriptText(auto_fullscreen) });
     }
   });
