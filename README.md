@@ -15,4 +15,7 @@ In custom_functions.js found in the js folder, adjust the following two lines by
 # Installation
 Zip the 'app' folder, and rename the fileextension to .crx. Then upload the chrome app to your Chrome browser or ChromeOS. 
 The app is compatible with kiosk mode on ChromeOS devices (such as ChromeBit/ChromeStick etc) so that it autostarts on boot there.
-  
+
+If your chrome is in developer mode, you can also upload the 'app' folder directly to your own installation without zipping.
+1.  Go to chrome://extensions/ and check the box for Developer mode in the top right.
+2.  Refresh the page and click the 'Load unpacked extension' button and select the app folder to install it.
